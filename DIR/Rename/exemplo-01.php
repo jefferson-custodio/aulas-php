@@ -21,5 +21,6 @@ rename( $dir1 . DIRECTORY_SEPARATOR . $filename, //Origem
      );
 
      echo "Arquivo movido com sucesso";
+     
 
 ?>
