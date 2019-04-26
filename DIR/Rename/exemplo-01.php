@@ -14,6 +14,7 @@ if (!file_exists($dir1 . DIRECTORY_SEPARATOR . $filename)) {
     fwrite($file, date("Y-m-d H:i:s"));
 
     fclose($file);
+    
 }
 
 rename( $dir1 . DIRECTORY_SEPARATOR . $filename, //Origem
@@ -21,6 +22,6 @@ rename( $dir1 . DIRECTORY_SEPARATOR . $filename, //Origem
      );
 
      echo "Arquivo movido com sucesso";
-     
+
 
 ?>
